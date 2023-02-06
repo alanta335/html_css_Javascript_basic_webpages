@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="container1">
+            <form id="formTable" action="bill.html">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name"><br>
+                <label for="noCakeDonuts">No of Cake Donuts</label>
+                <input type="text" name="noCakeDonuts" id="noCakeDonuts" onchange="cal()"><br>
+                <label for="noBakedDonuts">No of Baked Donuts</label>
+                <input type="text" name="noBakedDonuts" id="noBakedDonuts" onchange="cal()"><br>
+                <label for="minutes">Minutes</label>
+                <input type="text" name="minutes" id="minutes"><br>
+                <label for="subtotal">Subtotal</label>
+                <input type="text" name="subtotal" id="subtotal"><br>
+                <label for="tax">Tax</label>
+                <input type="text" name="tax" id="tax"><br>
+                <label for="total">Total</label>
+                <input type="text" name="total" id="total"><br>
+                <input type="submit" value="Submit" id="submit" onclick="getUrlVars()">
+            </form>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

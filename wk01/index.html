@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body >
+    <div class="main">
+        <div class = "header">
+            <h1 id="title">Survey Form</h1>
+        </div>
+        <div class = "body-class">
+            <br>
+            <form action="result.html" class="form">
+                
+                    <label for="first-name" id="f-n">First Name</label>
+                    <input type="text" id="first-name" name="first-name" 
+                    placeholder="Your name..">
+                    <br>
+                    <label for="last-name" id = "l-n">Last Name </label>
+                    <input type="text" id="last-name" name="last-name" 
+                    placeholder="Your last name">
+                    <br>
+                    <label>Gender</label>
+                    <br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="femail" name="gender" value="male">
+                    <label for="femail">female</label>
+                    <input type="radio" id="other" name="gender" value="male">
+                    <label for="other">other</label>
+                    <br>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" id="DOB" name="DOB">
+                    <br>
+                    <label for="email">Email</label>
+                    
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="phoneNo">Phone</label>
+                    <input type="tel" id="phoneNo" name="phoneNo" pattern="[1-9][0-9]{9}" placeholder="10 digit number">
+                    <br>
+                <label for="address">Address</label>
+                <br>
+                <textarea id="address" name="address"
+                placeholder="Permanent address" "></textarea>
+                <br>
+                <label>Skills</label>
+                <br>
+                <input type="checkbox" id="html" name="skill" value="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="skill" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="js" name="skill" value="js">
+                <label for="js">JavaScript</label>
+                <br>
+                <label for="yoe">Year of experience</label>
+                <br>
+                <input type="number" id="yoe" name="yearOfExperience" min="0" max="30">
+                <br>
+                <label for="education">Highest Education</label>
+                <br>
+                <select id="education" name="education" >
+                    <option value="none">None</option>
+                    <option value="highschool">High School</option>
+                    <option value="bachelor">Bachelor</option>
+                    <option value="master">Master</option>
+                    <option value="phd">PhD</option>
+                </select>
+                <br>
+                <label for="passmonth">Month and year of completion</label>
+                <input type="month" id="passmonth" name="pasmonth">
+                
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset">
+            </form>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+</body>
+
+</html>

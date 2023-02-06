@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col1{
+height: 100vh;
+width: 50%;
+border-right: 2px solid rgb(0, 0, 0);
+}
+.col2{
+    height: 100vh;
+    width: 50%;
+}
+.main{
+    display: flex;
+    margin: 10px;
+}
